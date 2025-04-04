@@ -17,7 +17,6 @@ export class SmartTextChecker implements ITextReader {
             
             console.log(`[INFO] File successfully read in ${endTime - startTime}ms`);
             
-            // Count and log statistics
             const lineCount = result.length;
             let characterCount = 0;
             

@@ -1,7 +1,6 @@
 import { Hero } from './Hero';
 import { HeroDecorator } from './HeroDecorator';
 
-// Weapon decorators
 export class Sword extends HeroDecorator {
     getAttack(): number {
         return this.hero.getAttack() + 5;
@@ -26,7 +25,6 @@ export class Staff extends HeroDecorator {
     }
 }
 
-// Armor decorators
 export class PlateArmor extends HeroDecorator {
     getDefense(): number {
         return this.hero.getDefense() + 8;
@@ -51,7 +49,6 @@ export class Robe extends HeroDecorator {
     }
 }
 
-// Artifact decorators
 export class AmuletOfPower extends HeroDecorator {
     getAttack(): number {
         return this.hero.getAttack() + 3;

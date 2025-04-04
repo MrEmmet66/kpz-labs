@@ -4,11 +4,10 @@ export enum DisplayType {
 }
 
 export enum CloseType {
-    SELF_CLOSING = 'self-closing',  // e.g., <img/>
-    PAIRED = 'paired'               // e.g., <div></div>
+    SELF_CLOSING = 'self-closing',
+    PAIRED = 'paired'
 }
 
-// Define interfaces for the nodes
 export interface ILightNode {
     setParent(parent: ILightElementNode | null): void;
     getParent(): ILightElementNode | null;
