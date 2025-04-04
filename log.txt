@@ -1,0 +1,6 @@
+[INFO] Normal message saved to file
+[ERROR] Error message saved to file
+[WARNING] Warning message saved to file
+[INFO] Normal message saved to file
+[ERROR] Error message saved to file
+[WARNING] Warning message saved to file
